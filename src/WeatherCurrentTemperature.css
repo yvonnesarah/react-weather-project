@@ -1,0 +1,15 @@
+.WeatherCurrentTemperature .temperature {
+  font-size: 3.75em;
+  font-weight: bold;
+  color: #333;
+  display: inline-block;
+  ;
+
+}
+
+.WeatherCurrentTemperature .unit {
+  font-size: 1em;
+  vertical-align: super;
+  line-height: 80px;
+  margin-left: 2px;
+}

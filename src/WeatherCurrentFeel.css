@@ -1,0 +1,10 @@
+.WeatherCurrentFeel .unitFeelsLike {
+    font-size: 2em;
+    vertical-align: super;
+}
+
+
+a {
+    text-decoration: none;
+    color: lightblue
+}

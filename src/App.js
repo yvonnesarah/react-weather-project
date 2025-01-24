@@ -1,5 +1,5 @@
 import "./App.css";
-
+import Weather from "./Weather";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <header className="App-header">
           <h1>React Weather App</h1>
         </header>
+        <Weather defaultCity="London" />
         <footer className="App-footer">
           This project was coded by{" "}
           <a
