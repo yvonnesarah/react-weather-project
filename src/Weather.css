@@ -3,56 +3,103 @@
   border-radius: 5px;
   padding: 10px;
   margin: 0 auto;
-  height: 100%;
+  max-width: 90%; 
+  height: auto; 
 }
 
 .Weather form {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .Weather h1 {
-  font-size: 2em;
+  font-size: 2em; 
   margin: 0;
   text-align: start;
 }
 
 .Weather h1 .countryName {
-    font-size: 0.8em;
-    font-weight: normal;
+  font-size: 0.8em;
+  font-weight: normal;
 }
 
-.weather .img {
-    height: 80px;
-    float: left;
+.Weather .img {
+  height: 80px;
+  float: left;
 }
 
 .Weather .temperature {
-    font-weight: bold;
-    color: darkslateblue;
-    font-size: 4em;
-    line-height: 80px;
-    vertical-align: middle;
+  font-weight: bold;
+  color: darkslateblue;
+  font-size: 4em;
+  line-height: 80px;
+  vertical-align: middle;
 }
 
 .Weather .unit {
-    font-size: 1.5em;
-    vertical-align: super;
+  font-size: 1.5em;
+  vertical-align: super;
 }
 
 .Weather ul {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .Weather li {
-    list-style: none;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 100px;
+  list-style: none;
+  font-size: 1em;
+  line-height: 1.5;
 }
 
 .Weather .weatherDetails {
-    vertical-align: middle;
-    line-height: 30px;
-    padding: 20px;
+  vertical-align: middle;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .Weather {
+    padding: 15px;
+    max-width: 95%; 
+  }
+
+  .Weather h1 {
+    font-size: 1.5em; 
+  }
+
+  .Weather .temperature {
+    font-size: 3em; 
+    line-height: 60px;
+  }
+
+  .Weather .unit {
+    font-size: 1.2em;
+  }
+
+  .Weather .img {
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Weather {
+    padding: 10px;
+  }
+
+  .Weather h1 {
+    font-size: 1.2em;
+  }
+
+  .Weather .temperature {
+    font-size: 2.5em;
+    line-height: 50px;
+  }
+
+  .Weather .img {
+    height: 50px;
+  }
+
+  .Weather .weatherDetails {
+    padding: 10px;
+  }
 }

@@ -3,8 +3,6 @@
   font-weight: bold;
   color: #333;
   display: inline-block;
-  ;
-
 }
 
 .WeatherCurrentTemperature .unit {
@@ -12,4 +10,28 @@
   vertical-align: super;
   line-height: 80px;
   margin-left: 2px;
+}
+
+
+@media (max-width: 768px) {
+  .WeatherCurrentTemperature .temperature {
+    font-size: 2.5em; 
+  }
+
+  .WeatherCurrentTemperature .unit {
+    font-size: 0.85em; 
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .WeatherCurrentTemperature .temperature {
+    font-size: 2em; 
+  }
+
+  .WeatherCurrentTemperature .unit {
+    font-size: 0.75em; 
+    line-height: 50px; 
+    margin-left: 1px; 
+  }
 }

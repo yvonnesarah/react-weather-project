@@ -3,8 +3,27 @@
     vertical-align: super;
 }
 
-
 a {
     text-decoration: none;
-    color: lightblue
+    color: lightblue;
+}
+
+@media (max-width: 768px) { 
+    .WeatherCurrentFeel .unitFeelsLike {
+        font-size: 1.5em; 
+    }
+
+    a {
+        color: lightcoral; 
+    }
+}
+
+@media (max-width: 480px) { 
+    .WeatherCurrentFeel .unitFeelsLike {
+        font-size: 1.2em; 
+    }
+
+    a {
+        color: lightgreen; 
+    }
 }
