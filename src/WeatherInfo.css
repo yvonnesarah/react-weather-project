@@ -5,49 +5,116 @@
 }
 
 .WeatherInfo h1 .countryName {
-    font-size: 20px;
-    font-weight: normal;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 .weatherInfo .img {
-    height: 80px;
-    float: left;
-    padding-right: 10px;
+  height: 80px;
+  float: left;
+  padding-right: 10px;
 }
 
-
 .WeatherInfo .temperature {
-    font-weight: bold;
-    color: darkslateblue;
-    font-size: 4em;
-    line-height: 80px;
-    vertical-align: middle;
+  font-weight: bold;
+  color: darkslateblue;
+  font-size: 4em;
+  line-height: 80px;
+  vertical-align: middle;
 }
 
 .WeatherInfo .unit {
-    font-size: 1.5em;
-    vertical-align: super;
+  font-size: 1.5em;
+  vertical-align: super;
 }
 
 .WeatherInfo ul {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .WeatherInfo li {
-    list-style: none;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 100px;
+  list-style: none;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 100px;
 }
 
 .WeatherInfo .weatherDetails {
-    vertical-align: middle;
-    line-height: 30px;
-    padding: 20px;
+  vertical-align: middle;
+  line-height: 30px;
+  padding: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: white
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 960px) {
+  .WeatherInfo h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .WeatherInfo h1 .countryName {
+    font-size: 18px;
+  }
+
+  .weatherInfo .img {
+    height: 60px;
+    padding-right: 8px;
+  }
+
+  .WeatherInfo .temperature {
+    font-size: 3em;
+    line-height: 70px;
+  }
+
+  .WeatherInfo .unit {
+    font-size: 1.3em;
+  }
+
+  .WeatherInfo li {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .WeatherInfo .weatherDetails {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .WeatherInfo h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .WeatherInfo h1 .countryName {
+    font-size: 16px;
+  }
+
+  .weatherInfo .img {
+    height: 50px;
+    padding-right: 6px;
+  }
+
+  .WeatherInfo .temperature {
+    font-size: 2.5em;
+    line-height: 60px;
+  }
+
+  .WeatherInfo .unit {
+    font-size: 1.2em;
+  }
+
+  .WeatherInfo li {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .WeatherInfo .weatherDetails {
+    padding: 10px;
+  }
 }

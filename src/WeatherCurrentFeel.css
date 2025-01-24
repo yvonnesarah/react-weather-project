@@ -8,22 +8,14 @@ a {
     color: lightblue;
 }
 
-@media (max-width: 768px) { 
+@media screen and (max-width: 960px) {
     .WeatherCurrentFeel .unitFeelsLike {
         font-size: 1.5em; 
+        vertical-align: baseline; 
     }
 
     a {
-        color: lightcoral; 
-    }
-}
-
-@media (max-width: 480px) { 
-    .WeatherCurrentFeel .unitFeelsLike {
-        font-size: 1.2em; 
-    }
-
-    a {
-        color: lightgreen; 
+        text-decoration: underline; 
+        color: darkblue; 
     }
 }

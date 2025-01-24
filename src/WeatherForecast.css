@@ -35,6 +35,31 @@
   height: 50px;
 }
 
+@media (max-width: 960px) {
+  .WeatherForecast h1 {
+    font-size: 2em;  
+    margin-bottom: 15px; 
+  }
+
+  .WeatherForecastDay {
+    margin: 0 3%; 
+  }
+
+  .WeatherForecast-day {
+    font-size: 1.1em; 
+  }
+
+  .WeatherForecast-temperature-max,
+  .WeatherForecast-temperature-min {
+    font-size: 1.1em; 
+    margin-left: 3%; 
+  }
+
+  .WeatherForecast-icon {
+    width: 45px; 
+    height: 45px;
+  }
+}
 
 @media (min-width: 768px) {
   .WeatherForecast h1 {
@@ -44,27 +69,5 @@
   .WeatherForecast-icon {
     width: 60px;
     height: 60px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .WeatherForecast h1 {
-    font-size: 3.5em; 
-  }
-
-  .WeatherForecastDay {
-    flex-direction: row; 
-    margin: 0 20px;
-  }
-
-  .WeatherForecast-icon {
-    width: 70px; 
-    height: 70px;
-  }
-
-  .WeatherForecast-temperature-max,
-  .WeatherForecast-temperature-min {
-    font-size: 1.5em; 
-    margin-left: 10px;
   }
 }
